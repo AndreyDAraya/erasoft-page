@@ -1,5 +1,6 @@
 {
   "name": "play-astro",
+  "packageManager": "bun@1.0.29",
   "type": "module",
   "version": "1.0",
   "scripts": {
