@@ -29,23 +29,12 @@ const menuitems = [
       <div class="w-60 max-w-full px-4">
         <a href="/" class="navbar-logo block w-full py-5">
           {
-            Astro.url.pathname === '/' ? (
-              <h1 class="text-white group-hover:text-blue-950">ERASOFT LOGO</h1>
-            ) : (
-              // <img
-              //   src="/assets/logo/logo-white.svg"
-              //   alt="logo"
-              //   class="header-logo w-full"
-              // />
-              <>
-                <img src="/assets/logo/logo.svg" alt="logo" class="w-full dark:hidden" />
+                <img src="/assets/logo/light_horizontal.svg" alt="logo" class="w-full dark:hidden " />
                 <img
-                  src="/assets/logo/logo-white.svg"
+                  src="/assets/logo/dark_horizontal.svg"
                   alt="logo"
-                  class="hidden w-full dark:block"
+                  class="hidden w-full dark:block light:hidden"
                 />
-              </>
-            )
           }
         </a>
       </div>
