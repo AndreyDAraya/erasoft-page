@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
       if (ud_header.classList.contains('sticky-header')) {
         document.querySelector(".header-logo").src = '/assets/logo/light_horizontal.svg';
       } else {
-        document.querySelector('.header-logo').src = '/assets/logo/light_horizontal.svg';
+        document.querySelector('.header-logo').src = '/assets/logo/dark_horizontal.svg';
       }
     }
 
@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function () {
       if (logo.length) {
         // === logo change
         if (ud_header.classList.contains('sticky-header')) {
-          document.querySelector('.header-logo').src = '/assets/logo/light_horizontal.svg';
+          document.querySelector('.header-logo').src = '/assets/logo/dark_horizontal.svg';
         } 
       }
     }
